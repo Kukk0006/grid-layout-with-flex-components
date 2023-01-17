@@ -48,18 +48,14 @@ body {
   display: flex;
   flex-flow: column wrap;
 }
-.emoji a{
-  align-self: stretch;
-  order: 4;
-}
 .icon{
   align-self: center;
-  order: 1;
-}
-.emoji h2{
-  order: 2;
+  order: -1;
 }
 .emoji p{
-  order:3;
-  flex-grow: 1;
+  margin-bottom: auto;
+}
+.emoji a{
+  align-self: stretch;
+  margin-top: 1rem;
 }
