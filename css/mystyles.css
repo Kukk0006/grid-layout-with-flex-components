@@ -46,10 +46,10 @@ body {
 }
 .emoji{
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
 }
 .emoji a{
-  align-self: stretch baseline;
+  align-self: stretch;
   order: 4;
 }
 .icon{
